@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    
+    <style>
+        body {
+            /* Pakai font yang keliatan kayak Times New Roman */
+            font-family: 'Times New Roman', Times, serif; 
+            margin: 20px;
+        }
+        /* Style buat kotak frame form utama */
+        .form-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 450px; 
+            margin: 0; 
+        }
+        /* Garis tipis di bawah judul 'Formulir Registrasi' */
+        h2 {
+            /* ... (properti lain) ... */
+            border-bottom: 1px solid #ccc; /* Ini buat garisnya */
+            padding-bottom: 5px;
+            width: fit-content; /* Garisnya cuma sepanjang teks */
+        }
+        
+        /* PENTING! Class buat Label dan Input jadi satu baris */
+        .form-group-inline {
+            display: flex; /* Ini kunci utamanya! Biar elemennya sejajar horizontal */
+            align-items: center; /* Biar posisi label dan inputnya pas di tengah */
+            margin-bottom: 12px;
+        }
+        
+        /* Mengatur lebar khusus buat label biar semua kotak input sejajar rapi */
+        .form-group-inline label {
+            width: 150px; 
+            margin-right: 10px; 
+            text-align: left;
+            font-weight: normal;
+        }
+        
+        /* Style buat kotak-kotak inputnya (biar nggak melengkung dan lebarnya pas) */
+        .input-field input[type="text"], 
+        .input-field input[type="email"], 
+        .input-field input[type="password"] {
+            width: 300px; /* Lebar segini udah pas kayak di gambar */
+            border-radius: 0; /* Biar sudutnya kotak */
+            box-sizing: border-box; 
+        }
+
+        /* Class khusus buat Jenis Kelamin (karena dia vertikal, nggak pakai flex) */
+        .form-group-vertical {
+            margin-bottom: 15px; 
+        }
+        .form-group-vertical label {
+            display: block; /* Biar Label 'Jenis Kelamin' ada di baris sendiri */
+            margin-bottom: 5px;
+            font-weight: normal;
+        }
+        /* ... (properti CSS lain) ... */
+        
+        /* Style untuk Tombol Daftar (sekarang menjadi class .tombol-daftar) */
+        .tombol-daftar {
+            text-decoration: none; /* HILANGKAN garis bawah default link */
+            background-color: white; 
+            color: black;
+            padding: 5px 15px;
+            border: 1px solid #ccc;
+            border-radius: 0;
+            cursor: pointer;
+            margin-top: 10px;
+            font-weight: normal;
+            display: block; /* Pakai block biar tombol ada di baris baru */
+            width: fit-content; /* Biar lebarnya cuma sebesar teks */
+        }
+        /* Hapus style untuk tag button (karena sudah diganti) */
+        button { display: none; } 
+    </style>
+</head>
+<body>
+
+    <h1>Registrasi Akun</h1>
+
+    <div class="form-container">
+        <h2>Formulir Registrasi</h2>
+        
+        <form action="/submit-form" method="post">
+            
+            <div class="form-group-inline">
+                <label for="nama">Masukkan nama:</label>
+                <div class="input-field">
+                    <input type="text" id="nama" name="nama" value="" required>
+                </div>
+            </div>
+
+            <div class="form-group-inline">
+                <label for="nim">Masukkan NIM:</label>
+                <div class="input-field">
+                    <input type="text" id="nim" name="nim" value="" required>
+                </div>
+            </div>
+
+            <div class="form-group-inline">
+                <label for="email">Masukkan email:</label>
+                <div class="input-field">
+                    <input type="email" id="email" name="email" value="" required>
+                </div>
+            </div>
+            
+            <div class="form-group-vertical">
+                <label>Jenis Kelamin</label>
+                <div class="radio-options">
+                    <input type="radio" id="laki" name="jenis_kelamin" value="Laki-Laki">
+                    <label for="laki" style="display: inline;">Laki-Laki</label>
+                    
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                    <label for="perempuan" style="display: inline;">Perempuan</label>
+                </div>
+            </div>
+            
+            <div class="form-group-inline">
+                <label for="agama">Agama</label>
+                <div class="input-field">
+                    <select id="agama" name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddha">Buddha</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group-inline">
+                <label for="password">Masukkan password:</label>
+                <div class="input-field">
+                    <input type="password" id="password" name="password" value="" required>
+                </div>
+            </div>
+
+            <div class="form-group-inline">
+                <label for="konfirmasi_password">Konfirmasi password:</label>
+                <div class="input-field">
+                    <input type="password" id="konfirmasi_password" name="konfirmasi_password" value="" required>
+                </div>
+            </div>
+
+            <a href="biodata.html" class="tombol-daftar">Daftar</a>
+
+            <button type="submit" style="display: none;">Daftar</button>
+        </form>
+    </div>
+
+</body>
+</html>

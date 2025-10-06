@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodataku</title>
+    
+    <style>
+        /* CSS GLOBAL RESET: Menghilangkan semua margin dan padding bawaan */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* FONT WAJIB Times New Roman (Sesuai patokan Fauzan) */
+            font-family: 'Times New Roman', Times, serif; 
+            margin: 20px;
+        }
+        
+        /* Style buat Judul Utama dan Sub-judul */
+        h1 {
+            color: black;
+            font-weight: bold;
+            margin-bottom: 20px; 
+            margin-top: 0;
+        }
+        h2 {
+            color: black;
+            font-weight: bold;
+            border-bottom: 1px solid #ccc; /* Garis bawah tipis */
+            padding-bottom: 5px;
+            margin-top: 30px; 
+            margin-bottom: 10px; 
+        }
+        
+        /* Container utama: MENGATUR TATA LETAK VERTIKAL */
+        .identitas-container {
+            /* HAPUS display: flex! Agar elemen IMG dan UL menumpuk secara alami */
+            margin-bottom: 20px;
+        }
+        .identitas-container img {
+            /* Buat gambar menjadi elemen blok agar mengambil baris penuh */
+            display: block; 
+            width: 150px; 
+            height: auto;
+            margin-bottom: 10px; /* Jarak antara foto dan daftar identitas */
+            border-radius: 5px; 
+        }
+        
+        /* Mengatur list Identitas Diri (Bullet Point Rapat) */
+        .identitas-list {
+            list-style: disc; 
+            margin-left: 20px; 
+            padding-left: 0; 
+            line-height: 1.3; 
+            font-size: 1em; 
+            margin-top: 5px; 
+            margin-bottom: 0; 
+        }
+        li {
+            margin-top: 2px; 
+        }
+        
+        /* Style buat item hobi dan list bernomor */
+        .hobi-item-container {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .hobi-item {
+            display: inline-block; 
+            margin-right: 30px;
+            text-align: center;
+        }
+        .hobi-item img {
+            width: 150px; 
+            height: 150px;
+            object-fit: cover; 
+        }
+        ol {
+            list-style-type: decimal; 
+            margin-left: 35px; 
+            font-size: 0.9em; 
+        }
+
+        /* Style buat tabel Riwayat Pendidikan */
+        table {
+            border-collapse: collapse; 
+            width: 70%;
+            border: 1px solid #0099ff; 
+            margin-top: 10px;
+            font-size: 1em; 
+        }
+        th, td {
+            border: 1px solid #0099ff;
+            padding: 8px; 
+            text-align: left;
+            font-weight: normal; 
+        }
+        th {
+            background-color: #0099ff; 
+            color: white;
+            text-align: center;
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Biodataku</h1>
+    
+    <h2>Identitas Diri</h2>
+    <div class="identitas-container">
+        <img src="images.webp" alt="Foto Profil"> 
+        
+        <ul class="identitas-list">
+            <li>Nama: Julio Praja Sarbunan</li>
+            <li>NIM: 202431152</li>
+            <li>Prodi: Teknik Informatika</li>
+            <li>Alamat: Duri kosaambi</li>
+            <li>Email: milep@gmail.com</li>
+        </ul>
+    </div>
+    
+    <h2>Hobi</h2>
+    <div class="hobi-item-container">
+        <div class="hobi-item">
+            <img src="download.jpeg" alt="Hobi 1">
+        </div>
+        <div class="hobi-item">
+            <img src="istockphoto-1448737609-612x612.jpg" alt="Hobi 2">
+        </div>
+    </div>
+    
+    <ol>
+        <li> Main Gitar 1</li>
+        <li> Main game 2</li>
+    </ol>
+    
+    <h2>Riwayat Pendidikan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Tingkat Pendidikan</th>
+                <th>Nama Sekolah</th>
+                <th>Tahun Lulus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SD</td>
+                <td>SD Donbosco III</td>
+                <td>1990</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SMP</td>
+                <td>Santo Paulus</td>
+                <td>1975</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SMA/SMK</td>
+                <td>Siwalima</td>
+                <td>1997</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>S1</td>
+                <td>ITPLN</td>
+                <td>2045</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
