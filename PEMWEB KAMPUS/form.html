@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login mek</h1>
+    <form action="List.html">
+        <fieldset>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="Masukan email">
+        </fieldset>
+        <fieldset>
+            <label for="PW">PW</label>
+            <input type="password" name="password" id="password" placeholder="masukan passwprd">
+        </fieldset>
+        <input type="submit" value="LOgin">
+    </form>
+    <hr> 
+    <h2>form registration</h2>
+    <form action="Latihan1.html">
+        <fieldset>
+            <label for="nama">Nama lengkap</label><br>
+            <input type="text" name="nama" id="nama" placeholder="silahkan masukan nama anda">
+            <br><br>
+            <label for="telepon">telepone</label><br>
+            <input type="password" name="password" id="password" placeholder="masukan passwprd"required>
+            <br><br>
+            <label for="nip">NIP</label><br>
+            <input type="text" name="nip" placeholder="silahkan isi nip anda" 
+            required
+                pattern="[A-Z]{1,2}[0-9]{4}"
+                title="silahkan masukan nip sesuai dengan format: 2 huruf kapital dan 4 angka"
+            
+            >
+            <br><br>
+            <label for="email">email</label><br>
+            <input type="email" name="email" id="email" placeholder="masukan email">
+            <br><br>
+            <label for="PW">PW</label><br>
+            <input type="password" name="password" id="password" placeholder="masukan passwprd">
+            <br><br>
+            <label> jenis kelamin</label><br>
+            <input type="radio" name="" id="jk" id="pria"><label for="pria">pria</label>
+            <input type="radio" name="" id="jk" id="wanita"><label for="wanita">wanita</label>
+            <br><br>
+            <label> hobi</label><br>
+            <input type="checkbox" name="hobi" id="membaca" id="membaca"><label for="membaca">membaca</label>
+            <input type="checkbox" name="hobi" id="mabar" id="mabar"><label for="mabar">mabar</label>
+            <br><br>
+            <label for="tl">tanggal lahir</label><br>
+            <input type="date" name="tl" id="tl">
+            <br><br>
+            <label for="asal">asal daerah</label><br>
+            <select name="asal" id="asal">
+                <option value="jakarta"> Dki jakarta</option>
+                <option value="ngawi "> ngawi selatan</option>
+                <option value="jomokerto"> jawa selatan</option>
+                <option value="ohio"> amerika serikat</option>
+            </select>
+            <br><br>
+            <label for="ket">keterangan</label><br>
+            <textarea name="ket" id="ket"cols="30"placeholder="masukkan keterangan" rows="s"></textarea>
+            <br><br>
+            <input type="submit" value="daftar">
+            
+        </fieldset>
+      
+    </form>
+   
+
+</body>
+</html>
