@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="Mp7tsFO0kWIV-QRGaOwq">
+    <mxGraphModel dx="1011" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-1" value="FPB&lt;br&gt;No_FPB&lt;br&gt;Tgl_FPB&lt;br&gt;Kebutuhan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Shyxbkj9L7DFRSlAW6Jp-3" target="Shyxbkj9L7DFRSlAW6Jp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-3" value="FPB_Pesanan&lt;br&gt;NO_FPB&lt;br&gt;ID_barang&lt;br&gt;Jumlah_dibutukan" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-4" value="Barang&lt;br&gt;ID_barang&lt;br&gt;Jumlah_barang&lt;br&gt;satuan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-10" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="88" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-11" value="M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="98" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.997;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Shyxbkj9L7DFRSlAW6Jp-3" target="Shyxbkj9L7DFRSlAW6Jp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Shyxbkj9L7DFRSlAW6Jp-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-13" value="BSB&lt;br&gt;No_BSB&lt;br&gt;Tgl_BSB&lt;br&gt;Kebutuhan&lt;br&gt;No_FPB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="422" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Shyxbkj9L7DFRSlAW6Jp-15" target="Shyxbkj9L7DFRSlAW6Jp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-15" value="BSB_Pesanan&lt;br&gt;NO_BSB&lt;br&gt;ID_barang&amp;nbsp;&lt;br&gt;Jumlah_serah" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="442" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-16" value="Barang&lt;br&gt;ID_barang&lt;br&gt;Jumlah_barang&lt;br&gt;satuan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-17" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-18" value="M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.997;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Shyxbkj9L7DFRSlAW6Jp-15" target="Shyxbkj9L7DFRSlAW6Jp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-21" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="418" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Shyxbkj9L7DFRSlAW6Jp-22" value="M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="208" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
